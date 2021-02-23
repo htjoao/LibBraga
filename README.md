@@ -1,9 +1,11 @@
 # LibBraga
 Repositório para exemplificar a criação de projetos no Python
 
-Esse curso eu estudo  a criação e contirbuição com projetos open source.
+Site do Curso : [https://www.python.pro.br]
 
-topicos a serem abordados:
+Esse curso eu estudo a criação e contribuição com projetos open source.
+
+tópicos a serem abordados:
 1. Git
 2. Virtualenv
 3. Pip
