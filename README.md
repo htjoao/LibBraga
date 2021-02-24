@@ -1,7 +1,7 @@
 # LibBraga
 Repositório para exemplificar a criação de projetos no Python
 
-Site do Curso : [https://www.python.pro.br]
+Site do Curso [Python Pro] (https://www.python.pro.br)
 
 Esse curso eu estudo a criação e contribuição com projetos open source.
 
