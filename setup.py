@@ -95,7 +95,7 @@ def find_package_data(
 
 
 PACKAGE = "LibBraga"
-NAME = PACKAGE
+NAME = "LibBraga"
 DESCRIPTION = "Repositório para exemplificar a criação de projetos no Python"
 AUTHOR = "João Victor"
 AUTHOR_EMAIL = "jvictor.braga@yahoo.com"
@@ -110,7 +110,7 @@ setup(
     long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
-    license=read('LICENSE'),
+    license="GNU AFFERO GENERAL PUBLIC LICENSE",
     url=URL,
     packages=find_packages(exclude=["tests.*", "tests"]),
     package_data=find_package_data(PACKAGE, only_in_packages=False),
