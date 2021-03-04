@@ -16,6 +16,7 @@ Para instalar:
 ```console
 Python3 -r venv .venv
 source venv\bin\activate
+No windows .venv\Scripts\activate
 pip install -r requiments-dev.txt
 ```
 
