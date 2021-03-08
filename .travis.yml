@@ -11,6 +11,7 @@
     "pip install -q -r requirements-dev.txt"
   ],
   "script": [
-    "flake8"
+    "flake8",
+    "pytest LibBraga"
   ]
 }
