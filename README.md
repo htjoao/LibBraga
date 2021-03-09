@@ -7,6 +7,7 @@ Site do Curso [Python Pro] (https://www.python.pro.br)
 [![Updates](https://pyup.io/repos/github/htjoao/LibBraga/shield.svg)](https://pyup.io/repos/github/htjoao/LibBraga/)
 [![Python3](https://pyup.io/repos/github/htjoao/LibBraga/python-3-shield.svg)](https://pyup.io/repos/github/htjoao/LibBraga/)
 [![codecov](https://codecov.io/gh/htjoao/LibBraga/branch/main/graph/badge.svg?token=QPPJRS4R0M)](https://codecov.io/gh/htjoao/LibBraga)
+
 Esse curso eu estudo a criação e contribuição com projetos open source.
 
 Suportada versão 3 de Python
