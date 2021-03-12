@@ -9,30 +9,30 @@ def test_criar_enviador_de_email():
 
 
 @pytest.mark.parametrize(
-    'remetente',
+    'destinatario',
     ['jvictor.braga@yahoo.com', 'sooaresraiane@gmail.com', 'jo_elma28@yahoo.com.br']
 )
-def test_remetente(remetente):
+def test_remetente(destinatario):
     enviador = Enviador()
-    remetente
+    destinatario
     resultado = enviador.enviar(
-        remetente,
+        destinatario,
         'jo_elma28@yahoo.com.br',
         'Email de teste para o curso',
         'Oi,so queria testar o envio de email automático.'
     )
-    assert remetente in resultado
+    assert destinatario in resultado
 
 
 @pytest.mark.parametrize(
-    'remetente',
+    'destinatario',
     ['jvictor', 'sooares.com', 'jo_yahoo.']
 )
-def test_remetente_invalido(remetente):
+def test_remetente_invalido(destinatario):
     enviador = Enviador()
     with pytest.raises(EmailInvalido):
         enviador.enviar(
-            remetente,
+            destinatario,
             'jo_elma28@yahoo.com.br',
             'Email de teste para o curso',
             'Oi,so queria testar o envio de email automático.'
