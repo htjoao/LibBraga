@@ -10,6 +10,7 @@ six==1.15.0
 attrs==20.3.0
 pluggy==0.13.1
 pytest==6.2.2
+pytest-mock==3.5.1
 
 #converage
 coverage==5.5
