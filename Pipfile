@@ -1,0 +1,18 @@
+#To activate this project's virtualenv, run pipenv shell'
+#Alternatively,run a command inside the virtualenv with pipenv run.[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+flake8 = "*"
+coverage = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+
+[packages]
+requests = "*"
+
+[requires]
+python_version = "3.8"
