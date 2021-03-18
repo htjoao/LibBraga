@@ -8,7 +8,7 @@
     "3.8"
   ],
   "install": [
-    "pip install -q pipenv codecov"
+    "pip install  pipenv codecov"
     "pipenv sync --dev"
   ],
   "script": [
