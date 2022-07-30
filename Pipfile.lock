@@ -193,12 +193,8 @@
             "version": "==2.7.0"
         },
         "pyflakes": {
-            "hashes": [
-                "sha256:910208209dcea632721cb58363d0f72913d9e8cf64dc6f8ae2e02a3609aba40d",
-                "sha256:e59fd8e750e588358f1b8885e5a4751203a0516e0ee6d34811089ac294c8806f"
-            ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-            "version": "==2.3.0"
+            "hashes": [],
+            "version": "==2.5.0"
         },
         "pyparsing": {
             "hashes": [
